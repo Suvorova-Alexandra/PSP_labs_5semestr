@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Context docBase="part2" path="/part2"  username="Sasha"
+         password="Sasha2001!"
+         url="jdbc:mysql://localhost:3306/library?autoReconnect=true"
+         reloadable="true">
+    <Resource auth="Container" name="jdbc/library"
+              type="javax.sql.DataSource"/>
+    <ResourceLink name="jdbc/library"
+                  global="jdbc/library"
+                  type="javax.sql.DataSource" />
+    <ResourceParams name="jdbc/library">
+        <parameter>
+            <name>factory</name>
+            <value>org.apache.tomcat.dbcp.BasicDataSourceFactory</value>
+        </parameter>
+        <parameter>
+            <name>driverClassName</name>
+            <value>com.mysql.cj.jdbc.Driver</value>
+        </parameter>
+        <parameter>
+            <name>url</name>
+            <value>jdbc:mysql://localhost:3306/library?autoReconnect=true
+            </value>
+        </parameter>
+        <parameter>
+            <name>username</name>
+            <value>Sasha</value>
+        </parameter>
+        <parameter>
+            <name>password</name>
+            <value>Sasha2001!</value>
+        </parameter>
+        <parameter>
+            <name>maxActive</name>
+            <value>500</value>
+        </parameter>
+        <parameter>
+            <name>maxIdle</name>
+            <value>10</value>
+        </parameter>
+        <parameter>
+            <name>maxWait</name>
+            <value>10000</value>
+        </parameter>
+        <parameter>
+            <name>removeAbandoned</name>
+            <value>true</value>
+        </parameter>
+        <parameter>
+            <name>removeAbandonedTimeout</name>
+            <value>60</value>
+        </parameter>
+        <parameter>
+            <name>logAbandoned</name>
+            <value>true</value>
+        </parameter>
+    </ResourceParams>
+</Context>
