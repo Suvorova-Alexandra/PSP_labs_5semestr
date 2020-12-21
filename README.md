@@ -11,7 +11,7 @@
 * interfaces, abstract classes, classes
 <!-- end of the list -->
 4 lab:
-* TCP/IP and UDP technologies
+* TCP/IP and UDP technologies, Math functions
 <!-- end of the list -->
 5 lab:
 * Swing, AWT, save to txt
