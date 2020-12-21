@@ -5,12 +5,12 @@
 * primitive java console app  
 <!-- end of the list -->
 2 lab:
-* hierarchy
-* classes, inheritance
+* Hierarchy
+* Classes, Inheritance
 <!-- end of the list -->
 3 lab:
-* interfaces
-* abstract classes, classes
+* Interfaces
+* Abstract classes, Classes
 <!-- end of the list -->
 4 lab:
 * TCP/IP and UDP technologies
@@ -26,12 +26,12 @@
 <!-- end of the list -->
 7 lab:
 * JDBC
-* maven, servlets,jsp
+* Maven, Servlets,JSP
 * Swing
 <!-- end of the list -->
 8 lab:
-* maven, servlets,jsp
-* session
+* Maven, Servlets,JSP
+* Session
 * JDBC
 <!-- end of the list -->
 
